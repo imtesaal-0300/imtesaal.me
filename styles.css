@@ -305,6 +305,16 @@ header {
   color: var(--text-light);
 }
 
+.blog_header {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.blog__container p {
+  padding: 0 50px;
+}
+
 .news {
   background-color: var(--extra-light);
 }
